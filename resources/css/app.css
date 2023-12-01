@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "General Sans", sans-serif;
+    background: var(--light);
+    color: var(--dark);
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+hr {
+    padding: 1rem 0;
+    color: var(--dark);
+}
+
+/* Container & Section */
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.section {
+    margin-top: 5rem;
+}
+
+/* Responsiveness */
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+
+    p {
+        font-size: var(--m);
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* Lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    p {
+        font-size: var(--l);
+    }
+}
+
+/* xL */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .section {
+        margin-top: 10rem;
+    }
+
+    p {
+        font-size: var(--xl);
+    }
+}
+
+/* 2xL */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+
+    p {
+        font-size: var(--xxl);
+    }
+}

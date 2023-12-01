@@ -1,0 +1,37 @@
+:root {
+    /* Color */
+    --light: #f1f5f9;
+    --dark: #070a13;
+    --slate800: #1e293b;
+
+    --pink: #db2777;
+    --purple: #9333ea;
+
+    /* Size */
+    --xxs: 0.5rem;
+    --xs: 0.75rem;
+    --s: 0.875rem;
+    --m: 1rem;
+    --l: 1.125rem;
+    --xl: 1.25rem;
+    --xxl: 1.5rem;
+    --xxxl: 2rem;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1280px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */

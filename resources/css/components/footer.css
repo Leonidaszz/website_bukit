@@ -1,0 +1,72 @@
+/* Contact Section */
+.bg-footer {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    background-image: linear-gradient(
+        319deg,
+        rgb(98, 241, 79) 0%,
+        #4fc45d 37%,
+        #42b37a 100%
+    );
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    color: white;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo__container {
+    display: grid;
+    grid-template-rows: repeat(2, 4rem);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.footer__logo {
+    grid-column: 1 / -1;
+    width: auto;
+    height: 5rem;
+}
+
+.info__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: large;
+}
+
+.icon {
+    width: 1rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: black;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
